@@ -74,9 +74,9 @@ nav,
 output,
 ruby,
 section,
+summarytime,
 mark,
 audio,
-
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -94,7 +94,7 @@ section {
 }
 
 body {
-    line-height: 1;
+    line-height:1;
 }
 
 ol,
@@ -115,28 +115,54 @@ q:after {
     content: none;
 }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Grape+Nuts&family=Rosario:wght@700&display=swap')
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Rosario:wght@700&display=swap');
 
-body {
-background: #09A66D;
-font-family: 'DM Sans',sans-serif;
-font-size: 18px;
-line height: 24px;
-padding: 50px;
-}
-
-h3 {
-    font-size: 50px;
+.main {
+    font-family: "DM Sans";
+    text-indent: 30%;
     line-height: 35px;
 }
 
 
-.headline {
-    text-transform: uppercase;
-    color: lightblue;
+p{
+    font-family: 'DM Sans', sans-serif;
 }
+p{
+    font-family: 'Rosario', sans-serif;
+}
+.headline {
+    font-family: Rosario;
+    text-transform:inherit;
+    color:palevioletred;
+}
+
+body {
+    background: #09A66D;
+    font-family: 'DM Sans',sans-serif;
+    
+}
+::first-letter {
+    color: orange;
+    size: 40px;
+    font-weight: 600; 
+}
+
+#main {
+    font-family: Rosario;
+    font-style: italic;
+    color: yellow;
+    font-weight: 400;
+    text-indent: 20px;
+    font-size:40px;
+
+}
+
+.text-footer {
+    background: lightgray;
+    font-size: 20px;
+    text-indent: 25px;
+    text-transform: unset;
+
+}
+
