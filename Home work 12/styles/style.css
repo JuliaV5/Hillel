@@ -129,18 +129,11 @@ table {
     border-spacing: 0;
 }
 
-nav form input.form-control.mr-sm-2{  
-    margin-left:150px;
-}
-@media (min-width: 576px)
-input.form-control.mr-sm-2 {
-    margin-right: 0px;
-}
 
 h1{
     text-align: center;
-    margin: 100px
-    ;
+    margin: 100px;
+    font-style: italic;
 }
 .carousel-inner{
     width: 100%;
@@ -150,13 +143,18 @@ nav form.form-inline{
     float: right;
 }
 
-ul li.nav-item{
-    margin: 20px;
-    width: 80px;
+
+form input.ml{
+    margin-left: 150px;
+    border-radius: 4px 0px 0px 4px;
+
 }
 
 button.btn.btn-primary{
     margin: 0px;
+    height: 30px;
+    border-radius: 0px 2px 2px 0px;
+    text-align: center;
 }
 
 input.form-control.mr-sm-2{
@@ -167,6 +165,14 @@ div.list-group{
     width: 40%;
     float:left
 }
+
+a.nav-link{
+    width: 150px;
+    padding: 15px;
+}
+
+
+
 /* Style the tab */
 .tab {
     overflow: hidden;
@@ -197,7 +203,7 @@ div.list-group{
 
 /* Style the tab content */
 .tabcontent {
-    display: none;
+    display: block;
     padding: 6px 12px;
     border: 1px solid rgb(180, 245, 2);
     border-top: none;
